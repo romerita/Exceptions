@@ -22,7 +22,7 @@ public class OperacionsBanc {
 
         int residuo = Integer.parseInt(numerosDNI) % 23;
 
-        for (int j = 0; j < 23; j++) {
+        for (int j = 0; j < letras.length; j++) {
             if (residuo == j) {
                 if (letraDNI == letras[j]) {
                     return true;
